@@ -30,4 +30,4 @@ data = {'Name': ['John', 'Jane', 'Jim'], 'Age': [25, 30, 35]}
 df = pd.DataFrame(data)
 
 # Call the function with your DataFrame and HTML file
-add_rows_to_html_table(df, '/Users/leozamarchi/Projetos/html_generator/my_html_file.html')
+add_rows_to_html_table(df, 'path/to/default_html_file.html')
